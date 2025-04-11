@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",              // Output JavaScript versi ES6
+    "module": "NodeNext",         // Pakai ES Module 
+    "strict": true,               // Mode strict untuk memastikan type safety
+    "esModuleInterop": true,      // Support import/export antar CommonJS & ES Module
+    "forceConsistentCasingInFileNames": true,  // Hindari case-sensitive import error
+    "skipLibCheck": true,         // Skip type-checking file `.d.ts` bawaan (biar build lebih cepat)
+    "outDir": "dist",             // Output hasil compile ke folder `dist`
+    "resolveJsonModule": true,    // Bisa import file JSON ke TypeScript
+    "allowJs": true               // Bisa pakai file `.js` kalau perlu
+  }
+}
