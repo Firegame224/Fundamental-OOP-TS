@@ -20,4 +20,5 @@ const employe = new Employe("Arjuna")
 employe.sayHello("Duryudana")
 const manager = new Manager("Fiky");
 manager.sayHello("Ahmad")
+
 //npx tsx test/method-overriding-test.ts
